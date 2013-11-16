@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1>Freewords.ru</h1>
+        <p class="lead">Бесплатный типа проект хот янет все таки платный.</p>
+    </div>
+
+
+    <!--Тип докумета-->
+    <div class="btn-group">
+
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Свидетельство о заключении брака <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Паспорт</a></li>
+            <li class="disabled"><a href="#">Свидетельство о заключении брака</a></li>
+            <li><a href="#">Трудовая книжка</a></li>
+            <li><a href="#">Сертификат</a></li>
+            <li><a href="#">Диплом</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+    <h3>Свидетельство о заключении брака</h3>
+    <p>Заполните поля следующие на языке оригинала документа:</p>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well4">
+
+
+                <!-- Форма -->
+                <form role="form" method="POST" action="action.php">
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Герб Российской федерации
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="familia">Фамилия</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Иванов" name="name">
+
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <label for="exampleInputPassword1">Имя</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Сергей">
+                            </div>
+                            <div class="col-xs-6">
+                                <label for="exampleInputPassword1">Отчество</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Петрович">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Гражданство</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="гражданин России">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Национальность</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="русский">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="exampleInputPassword1">Дата рождения</label>
+                                <input type="date" class="form-control" id="exampleInputPassword1" placeholder="20.12.2013">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-md-4">.</div>
+    </div>
+
+
+
+
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
